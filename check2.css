@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main{
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+ }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width:  2378px; /* Set the desired width */
+    height:  1321px; /* Set the desired height */
+    margin: auto;
+  }
+  
+  .image-piece {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  /* Set background image for each piece */
+  .piece1 { background-image: url('./taj/image1x1.jpg'); }
+  .piece2 { background-image: url('./taj/image2x1.jpg'); }
+  .piece3 { background-image: url('./taj/cut3.jpg'); }
+  

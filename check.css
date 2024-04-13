@@ -1,0 +1,42 @@
+body, html {
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main{
+     height: 100vh;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     
+  }
+  
+  .image-container {
+
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width:  637.5px; /* Set the desired width */
+    height:  825px; /* Set the desired height */
+    margin: auto;
+  }
+  
+  .image-piece {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  
+  /* Set background image for each piece  */
+  .piece1 { background-image: url('./4_Piece/row-1-column-1.jpg'); }
+  .piece2 { background-image: url('./4_Piece/row-1-column-2.jpg'); }
+  .piece3 { background-image: url('./4_Piece/row-2-column-1.jpg'); }
+  .piece4 { background-image: url('./4_Piece/row-2-column-2.jpg'); } 
+  

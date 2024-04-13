@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined Image</title>
+  <link rel="stylesheet" href="check2.css">
+  <!-- Include GSAP library -->
+  <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+</head>
+<body>
+
+  <div class="image-container">
+    <section class="main">
+    <div class="image-piece piece1"></div>
+    <div class="image-piece piece2"></div>
+    <div class="image-piece piece3"></div>
+    </section>
+  </div>
+
+  <!-- <script>
+
+    // GSAP animation to bring the image pieces together
+gsap.to('.piece1', { duration: 1, x: '-50%', y: '-50%' });
+gsap.to('.piece2', { duration: 1, x: '50%', y: '-50%' });
+gsap.to('.piece3', { duration: 1, x: '0%', y: '50%', onComplete: reassemble });
+
+// Function to reassemble the image pieces to the center
+function reassemble() {
+  gsap.to('.image-piece', { duration: 1, x: '0%', y: '0%' });
+}
+
+  </script> -->
+
+</body>
+</html>
